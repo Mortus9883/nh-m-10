@@ -46,9 +46,7 @@ public class RankingSystem extends JFrame implements ActionListener {
         
         
         top5=new JButton("TOP 5");
-        top5.setBounds(50, 40, 10, 10);
         backButton=new JButton("Back");
-        backButton.setBounds(50, 50, 10, 10);
 
         top5.addActionListener(this);
         backButton.addActionListener(this);
