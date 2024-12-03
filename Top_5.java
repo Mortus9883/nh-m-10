@@ -45,7 +45,6 @@ public class Top_5 extends JFrame implements ActionListener {
         JScrollPane scrollPane=new JScrollPane();
         scrollPane.setViewportView(Top5text);
         backButton=new JButton("Back");
-        backButton.setBounds(50, 50, 10, 10);
 
         backButton.addActionListener(this);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
